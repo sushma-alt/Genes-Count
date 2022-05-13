@@ -94,4 +94,8 @@ public class Part3 {
         int genesCount4 = countGenes(dna4);
         System.out.println("The gene count in DNA " + dna4 + " is " + genesCount4);
         }
+        public static void main(String args[]) {
+                Part3 part31 = new Part3();
+                part31.testCountGenes();
+        }
 }
