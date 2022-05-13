@@ -1,9 +1,7 @@
 
 /**
  * Write a description of Part2 here.
- * 
- * @author (your name) 
- * @version (a version number or a date)
+ * Program to find the number of times stringa is present in stringb.
  */
 public class Part2 {
     public int howMany(String stringa, String stringb) {
