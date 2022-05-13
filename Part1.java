@@ -68,4 +68,8 @@ public class Part1 {
     public void testAllGenes() {
         printAllGenes("ATGTACTAACGTATGCGTTAGTGCCTGATGCTATGCTG");
     }
+    public static void main(String args[]) {
+                Part1 part11 = new Part1();
+                part11.testAllGenes();
+        }
 }
