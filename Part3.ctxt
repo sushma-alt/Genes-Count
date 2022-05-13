@@ -1,0 +1,14 @@
+#BlueJ class context
+comment0.target=Part3
+comment0.text=\r\n\ A\ program\ to\ count\ how\ many\ genes\ are\ in\ a\ strand\ of\ DNA.\ A\ gene\ must\ start\ with\ a\ codon\ "ATG"\ and\ end\ with\ either\ "TAA"\ or\ "TAG"\ or\ "TGA"\ codon.\r\n\ A\ gene's\ length\ of\ characters\ must\ be\ a\ multiple\ of\ 3.\ \r\n\ The\ method\ named\ countGenes\ that\ has\ a\ String\ parameter\ named\ dna\ representing\ a\ string\ of\ DNA.\ This\ method\ returns\ the\ number\ of\ genes\ found\ in\ dna.\r\n\ For\ example\ the\ call\ countGenes(\u201CATGTAAGATGCCCTAGT\u201D)\ returns\ 2,\ finding\ the\ gene\ ATGTAA\ first\ and\ then\ the\ gene\ ATGCCCTAG.\r\n\ The\ method\ testCountGenes\ calls\ countGenes\ with\ many\ example\ strings\ and\ prints\ the\ result\ for\ each.\r\n\ @author\ (Sushma)\ \r\n\ @version\ (5/12/2022)\r\n
+comment1.params=dna\ startIndex\ stopCodon
+comment1.target=int\ findStopCodon(java.lang.String,\ int,\ java.lang.String)
+comment2.params=dna\ where
+comment2.target=java.lang.String\ findGene(java.lang.String,\ int)
+comment3.params=dna
+comment3.target=int\ countGenes(java.lang.String)
+comment4.params=dna
+comment4.target=void\ printAllGenes(java.lang.String)
+comment5.params=
+comment5.target=void\ testCountGenes()
+numComments=6
