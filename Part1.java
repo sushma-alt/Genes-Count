@@ -1,9 +1,7 @@
 
 /**
  * Write a description of Part1 here.
- * 
- * @author (your name) 
- * @version (a version number or a date)
+ * Program to find the first stop codon i.e. either "TAA" or "TAG" or "TGA" and print the gene and later find all genes present in the DN
  */
 public class Part1 {
     public int findStopCodon(String dna,int startIndex,String stopCodon) {
