@@ -23,4 +23,8 @@ public class Part2 {
     public void testHowMany() {
         System.out.println(howMany("AAA","manAAAvi"));
     }
+    public static void main(String args[]) {
+                Part2 part21 = new Part2();
+                part21.testHowMany();
+        }
 }
