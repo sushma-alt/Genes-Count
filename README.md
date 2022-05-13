@@ -1,2 +1,2 @@
 # Genes-Count
-counts the number of genes in a DNA.
+counts the number of genes in a DNA string.
